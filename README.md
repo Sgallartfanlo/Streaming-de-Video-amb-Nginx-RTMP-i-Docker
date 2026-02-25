@@ -54,10 +54,10 @@ docker-compose up -d
 
 
 3. Introdueix les dades:
-* **Servidor:** `rtmp://localhost:1935/live` 
+*   **Servidor:** `rtmp://localhost:1935/live` 
 
 
-* **Clau d'emissió:** `sergigallart` (o la teva clau personalitzada) 
+*   **Clau d'emissió:** `sergigallart` (o la teva clau personalitzada) 
 
 
 4. Fes clic a **Iniciar emissió**.
@@ -80,9 +80,5 @@ docker-compose up -d
 S'utilitza el preset de FFmpeg **`superfast`** per optimitzar l'ús de la CPU durant la codificació simultània de les tres qualitats.
 
 ---
-
 Projecte realitzat per **Sergi Gallart** per a l'assignatura de Serveis de Xarxa i Internet.
 
-```
-
----
