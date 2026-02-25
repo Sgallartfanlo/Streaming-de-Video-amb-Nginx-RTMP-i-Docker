@@ -3,14 +3,14 @@
 Aquest projecte implementa un servidor de streaming de vídeo utilitzant **Docker**, **Nginx-RTMP** i **FFmpeg** per realitzar transcodificació en temps real. Permet rebre un senyal RTMP i distribuir-lo mitjançant el protocol HLS amb múltiples qualitats (Streaming Adaptatiu).
 
 ## 🚀 Característiques
-* [cite_start]**Entrada:** Protocol RTMP (ideal per a OBS Studio o FFmpeg)[cite: 22, 24].
-* [cite_start]**Transcoding:** Generació de variants a 1080p, 720p i 480p en temps real[cite: 59, 61, 63].
-* [cite_start]**Sortida:** Protocol HLS (HTTP Live Streaming) compatible amb navegadors web[cite: 26, 28].
+* **Entrada:** Protocol RTMP (ideal per a OBS Studio o FFmpeg)[cite: 22, 24].
+* **Transcoding:** Generació de variants a 1080p, 720p i 480p en temps real[cite: 59, 61, 63].
+* **Sortida:** Protocol HLS (HTTP Live Streaming) compatible amb navegadors web[cite: 26, 28].
 * **Reproductor Web:** Inclou una interfície amb Video.js i selector de qualitat manual.
 
 ## 🛠️ Requisits previs
-* [cite_start]**Docker** i **Docker Compose** instal·lats[cite: 13].
-* [cite_start]**OBS Studio** (per a l'emissió)[cite: 15].
+* **Docker** i **Docker Compose** instal·lats[cite: 13].
+* **OBS Studio** (per a l'emissió)[cite: 15].
 
 ## 📂 Estructura del projecte
 ```text
@@ -23,7 +23,6 @@ streaming-video-sergigallart/
 └── docker-compose.yml  # Definició del contenidor
 
 ```
-
 ## ⚙️ Desplegament del servidor
 
 1. **Clonar el repositori:**
