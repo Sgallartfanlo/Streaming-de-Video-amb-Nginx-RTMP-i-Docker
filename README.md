@@ -3,9 +3,9 @@
 Aquest projecte implementa un servidor de streaming de vídeo utilitzant **Docker**, **Nginx-RTMP** i **FFmpeg** per realitzar transcodificació en temps real. Permet rebre un senyal RTMP i distribuir-lo mitjançant el protocol HLS amb múltiples qualitats (Streaming Adaptatiu).
 
 ## 🚀 Característiques
-* **Entrada:** Protocol RTMP (ideal per a OBS Studio o FFmpeg)[cite: 22, 24].
-* **Transcoding:** Generació de variants a 1080p, 720p i 480p en temps real[cite: 59, 61, 63].
-* **Sortida:** Protocol HLS (HTTP Live Streaming) compatible amb navegadors web[cite: 26, 28].
+* **Entrada:** Protocol RTMP (ideal per a OBS Studio o FFmpeg).
+* **Transcoding:** Generació de variants a 1080p, 720p i 480p en temps real.
+* **Sortida:** Protocol HLS (HTTP Live Streaming) compatible amb navegadors web.
 * **Reproductor Web:** Inclou una interfície amb Video.js i selector de qualitat manual.
 
 ## 🛠️ Requisits previs
