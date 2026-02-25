@@ -79,6 +79,5 @@ docker-compose up -d
 
 S'utilitza el preset de FFmpeg **`superfast`** per optimitzar l'ús de la CPU durant la codificació simultània de les tres qualitats.
 
----
 Projecte realitzat per **Sergi Gallart** per a l'assignatura de Serveis de Xarxa i Internet.
 
