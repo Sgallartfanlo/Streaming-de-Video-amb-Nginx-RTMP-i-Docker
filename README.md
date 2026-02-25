@@ -54,32 +54,24 @@ docker-compose up -d
 
 
 3. Introdueix les dades:
-* 
-**Servidor:** `rtmp://localhost:1935/live` 
+* **Servidor:** `rtmp://localhost:1935/live` 
 
 
-* 
-**Clau d'emissió:** `sergigallart` (o la teva clau personalitzada) 
-
-
+* **Clau d'emissió:** `sergigallart` (o la teva clau personalitzada) 
 
 
 4. Fes clic a **Iniciar emissió**.
 
 
-
 ## 📺 Visualització
 
-* 
-**Navegador Web:** Obre `http://localhost:8080` per veure el reproductor amb selector de qualitat.
+* **Navegador Web:** Obre `http://localhost:8080` per veure el reproductor amb selector de qualitat.
 
 
-* 
-**VLC Media Player:** Obre el flux de xarxa `http://localhost:8080/hls/sergigallart.m3u8`.
+* **VLC Media Player:** Obre el flux de xarxa `http://localhost:8080/hls/sergigallart.m3u8`.
 
 
-* 
-**Estadístiques:** Consulta l'estat del servidor a `http://localhost:8080/stat`.
+* **Estadístiques:** Consulta l'estat del servidor a `http://localhost:8080/stat`.
 
 
 
