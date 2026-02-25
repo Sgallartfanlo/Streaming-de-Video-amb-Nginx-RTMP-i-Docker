@@ -1,10 +1,3 @@
-I tant! Un bon `README.md` és la clau perquè el teu repositori de GitHub sembli professional i perquè qualsevol (o tu mateix en el futur) sàpiga com posar en marxa el servidor en pocs minuts.
-
-Aquí tens una proposta completa que pots copiar i enganxar:
-
----
-
-```markdown
 # 📡 Servidor de Streaming Adaptatiu (Nginx-RTMP + HLS)
 
 Aquest projecte implementa un servidor de streaming de vídeo utilitzant **Docker**, **Nginx-RTMP** i **FFmpeg** per realitzar transcodificació en temps real. Permet rebre un senyal RTMP i distribuir-lo mitjançant el protocol HLS amb múltiples qualitats (Streaming Adaptatiu).
